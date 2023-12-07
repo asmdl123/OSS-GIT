@@ -16,16 +16,10 @@ $ git config --global init.defaultBranch main
 
 ## 10강 
 #### 커밋 간의 파일 비교
-HEAD
-
-HEAD~ HEAD^
-
-하나 전 커밋
-
-~ tilde, 틸드, 물결
-
-^ caret, 커렛, 모자, 삿갓
-
-HEAD~~ HEAD~2 HEAD^^ HEAD^~
-
-두개 이전 커밋
+##### HEAD
+##### HEAD~ HEAD^
+-하나 전 커밋
+-~ tilde, 틸드, 물결
+-^ caret, 커렛, 모자, 삿갓
+##### HEAD~~ HEAD~2 HEAD^^ HEAD^~
+-두개 이전 커밋
