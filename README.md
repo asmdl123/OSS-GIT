@@ -14,8 +14,8 @@ $ git config --global core.editor 'code --wait'
 
 $ git config --global init.defaultBranch main 
 
-##10강 
-####커밋 간의 파일 비교
+## 10강 
+#### 커밋 간의 파일 비교
 HEAD
 HEAD~ HEAD^
 하나 전 커밋
