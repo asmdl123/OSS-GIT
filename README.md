@@ -14,12 +14,11 @@ $ git config --global core.editor 'code --wait'
 
 $ git config --global init.defaultBranch main 
 
-## 10강 
-#### 커밋 간의 파일 비교
-##### HEAD
-##### HEAD~ HEAD^
--하나 전 커밋
--~ tilde, 틸드, 물결
--^ caret, 커렛, 모자, 삿갓
-##### HEAD~~ HEAD~2 HEAD^^ HEAD^~
--두개 이전 커밋
+## 브랜치 병합
+#####병합(merge)
+-두 개의 브랜치를 하나로 모으는 과정
+
+$ git merge {병합할 브랜치 명}
+$ git merge --no-ff {병합할_브랜치_명}
+$ git merge --ff-only {병합할_브랜치_명}
+$ git merge --squash {병합할_브랜치_명}
